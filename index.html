@@ -1,14 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello world, we are software developers.</h1>
+    <navbar id="navbar">
+      <ul>
+        <li>
+          <a
+            href="#welcome-section"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a href="#projects"
+            >Work</a
+          >
+        </li>
+        <li>
+          <a href="#contact"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </navbar>
+
+    <section id="welcome-section">
+      <h1>He, I am Mimic</h1>
+      <h3>a web developer</h3>
+    </section>
+
+    <section id="projects">
+      <h3 id="project-header">These are some of my projects</h3>
+
+      <article class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">
+          <img src="./images/tribute.jpg" alt="Tribute" class="project-img" />
+          <div class="project-title"><span class="code"><</span>
+            Tribute Page
+            <span class="code">/></span></div>
+        </a>
+      </article>
+
+      <article class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ">
+          <img
+            src="./images/random-quote-machine.png"
+            alt="quote machine"
+            class="project-img"
+          />
+          <div class="project-title"><span class="code"><</span>
+            Random Quote Machine
+            <span class="code">/></span></div>
+        </a>
+      </article>
+
+      <article class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/wgGVVX">
+          <img
+            src="./images/calc.png"
+            alt="javascript calculator"
+            class="project-img"
+          />
+          <div class="project-title"><span class="code"><</span>
+            Javascript Calculator
+            <span class="code">/></span></div>
+        </a>
+      </article>
+
+      <article class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/mVEJag">
+          <img
+            src="./images/map.jpg"
+            alt="World Map"
+            class="project-img"
+          />
+          <div class="project-title"><span class="code"><</span>
+            Map data across the globe
+            <span class="code">/></span></div>
+        </a>
+      </article>
+
+      <article class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/wGqEga">
+          <img
+            src="./images/wiki.png"
+            alt="quote machine"
+            class="Wikipedia Viewer"
+          />
+          <div class="project-title"><span class="code"><</span>
+            Wikipedia Viewer
+            <span class="code">/></span></div>
+        </a>
+      </article>
+
+      <article class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/KzXQgy">
+          <img
+            src="./images/tic-tac-toe.png"
+            alt="quote machine"
+            class="Tic Tac toe"
+          />
+          <div class="project-title">
+            <span class="code"><</span>
+            Tic Tac Toe
+            <span class="code">/></span>
+          </div>
+        </a>
+      </article>
+
+      <a href="https://codepen.io/FreeCodeCamp/" target="_blank" class="btn showall"><button>Show all <i class="fas fa-chevron-right"></i></button></a>
+
+
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://facebook.com" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+        <a id="profile-link" href="https://github.com/debolu" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://twitter.com" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="mailto:example@example.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+        <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+      </div>
+    </section>
+
+      <footer>
+        <p>
+          **This is just a fake portfolio. All the projects and contact details
+          given are not real.
+        </p>
+        <p>
+          © Created for
+          <a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
+        </p>
+      </footer>
     <!--
 
     Hello Camper!
@@ -21,6 +154,6 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
