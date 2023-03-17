@@ -32,13 +32,21 @@ header.header {
     align-items: center;
     justify-content: space-between;
     border: .1rem solid #efefef;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
 }
 
 header.header .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(4, 4, 58);
+    
 }
+
+
+
 
 
 nav#navbar ul{
