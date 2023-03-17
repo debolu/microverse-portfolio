@@ -49,7 +49,7 @@ nav#navbar ul{
 }
 
 nav#navbar ul li {
-    padding: 1rem; 
+    padding: .5rem; 
 }
 
 
@@ -57,6 +57,13 @@ nav#navbar ul li > a {
     font-size: 14px;
     color: #888;
     transition: color .3s ease;
+    padding: 1rem;
+    display: block;
+}
+
+nav#navbar ul li > a .uil {
+    font-size: 1.1rem;
+    padding: .4rem;
 }
 
 nav#navbar ul li > a:hover {
